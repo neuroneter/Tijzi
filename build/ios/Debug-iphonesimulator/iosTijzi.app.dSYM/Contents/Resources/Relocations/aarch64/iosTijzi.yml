@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/neuroneter/AndroidStudioProjects/Tijzi/build/ios/Debug-iphonesimulator/iosTijzi.app/iosTijzi'
+relocations:     []
+...

@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iosTijzi-master.dia",
+    "emit-module-dependencies" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iosTijzi-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iosTijzi-master-emit-module.dia",
+    "swift-dependencies" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iosTijzi-master.swiftdeps"
+  },
+  "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/neuroneter/Documents/WorkSapce/Tijzi/iosTijzi/iosTijzi/ContentView.swift" : {
+    "const-values" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/neuroneter/Documents/WorkSapce/Tijzi/iosTijzi/iosTijzi/iOSApp.swift" : {
+    "const-values" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iOSApp.swiftconstvalues",
+    "dependencies" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iOSApp.d",
+    "diagnostics" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iOSApp.dia",
+    "index-unit-output-path" : "/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iOSApp.o",
+    "llvm-bc" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iOSApp.bc",
+    "object" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iOSApp.o",
+    "swift-dependencies" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iOSApp.swiftdeps",
+    "swiftmodule" : "/Users/neuroneter/Documents/WorkSapce/Tijzi/build/ios/iosTijzi.build/Debug-iphonesimulator/iosTijzi.build/Objects-normal/arm64/iOSApp~partial.swiftmodule"
+  }
+}
