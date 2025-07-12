@@ -1,5 +1,4 @@
-package com.parceros.tijzi.domain.usecases
-
+package com.parceros.tijzi.domain.usecase
 import com.parceros.tijzi.data.repository.AuthRepository
 import com.parceros.tijzi.data.repository.SessionRepository
 import com.parceros.tijzi.domain.model.UserSession

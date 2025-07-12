@@ -1,5 +1,5 @@
 // En shared/src/commonMain/kotlin/com/parceros/tijzi/domain/usecases/RequestOtpUseCase.kt
-package com.parceros.tijzi.domain.usecases
+package com.parceros.tijzi.domain.usecase
 
 import com.parceros.tijzi.data.repository.AuthRepository
 import com.parceros.tijzi.util.Result // <-- IMPORTA TU RESULT PERSONALIZADO

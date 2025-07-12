@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
-INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
-INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
-INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
-MERGED from [:shared] /Users/neuroneter/AndroidStudioProjects/Tijzi/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
+MERGED from [:shared] /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.compose.material3:material3:1.1.2] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b0d8f4419dd2d0384156d3f724fa4680/transformed/material3-1.1.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-ripple:1.4.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/dcb5efc632204a53376c36812c79aaf8/transformed/material-ripple-1.4.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.compose.material:material-icons-core:1.4.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/ae74ff7f5833f983ec76f16307486f1b/transformed/material-icons-core-1.4.1/AndroidManifest.xml:17:1-22:12
@@ -51,16 +51,16 @@ MERGED from [androidx.tracing:tracing:1.0.0] /Users/neuroneter/Documents/WorkSap
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d5592459e9718067e071cbda9f6727f5/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9ec819400566cafc2993291e916f7235/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:4:5-16:19
-INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:4:5-16:19
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:4:5-16:19
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:4:5-16:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f5a36a10dca0fb822d66a6f864151e7e/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f5a36a10dca0fb822d66a6f864151e7e/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f1b39aa685b221e906ffdb69109629bd/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
@@ -76,37 +76,37 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d50071a702cc7f581626fc0d6b514af4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d50071a702cc7f581626fc0d6b514af4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/e79a1b469cc4260bcd6f200886c76c41/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:6:9-35
 	android:allowBackup
-		ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:5:9-36
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:5:9-36
 	android:theme
-		ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:7:9-40
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:7:9-40
 activity#com.parceros.tijzi.android.MainActivity
-ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:8:9-15:20
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:8:9-15:20
 	android:exported
-		ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:10:13-36
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:10:13-36
 	android:name
-		ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:9:13-41
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:9:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:11:13-14:29
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:11:13-14:29
 action#android.intent.action.MAIN
-ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:12:17-69
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:12:17-69
 	android:name
-		ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:12:25-66
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:12:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:13:17-77
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:13:17-77
 	android:name
-		ADDED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml:13:27-74
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:13:27-74
 uses-sdk
-INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml
-INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml
-MERGED from [:shared] /Users/neuroneter/AndroidStudioProjects/Tijzi/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
-MERGED from [:shared] /Users/neuroneter/AndroidStudioProjects/Tijzi/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+MERGED from [:shared] /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared] /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
 MERGED from [androidx.compose.material3:material3:1.1.2] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b0d8f4419dd2d0384156d3f724fa4680/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material3:material3:1.1.2] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b0d8f4419dd2d0384156d3f724fa4680/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.compose.material:material-ripple:1.4.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/dcb5efc632204a53376c36812c79aaf8/transformed/material-ripple-1.4.1/AndroidManifest.xml:20:5-44
@@ -198,9 +198,9 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/neuroneter/Documen
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9ec819400566cafc2993291e916f7235/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9ec819400566cafc2993291e916f7235/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
 activity#androidx.compose.ui.tooling.PreviewActivity
 ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f5a36a10dca0fb822d66a6f864151e7e/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
 	android:exported

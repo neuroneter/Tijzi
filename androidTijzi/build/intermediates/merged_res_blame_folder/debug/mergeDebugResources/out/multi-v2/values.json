@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.parceros.tijzi.android.androidTijzi-mergeDebugResources-2:/values/values.xml",
+            "outputFile": "com.parceros.tijzi.android.androidTijzi-mergeDebugResources-43:/values/values.xml",
             "map": [
                 {
                     "source": "/Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d50071a702cc7f581626fc0d6b514af4/transformed/startup-runtime-1.1.1/res/values/values.xml",
@@ -35,23 +35,6 @@
                         "startOffsets": "5650",
                         "endColumns": "42",
                         "endOffsets": "5688"
-                    }
-                },
-                {
-                    "source": "/Users/neuroneter/AndroidStudioProjects/Tijzi/androidTijzi/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "72",
-                        "endOffsets": "84"
-                    },
-                    "to": {
-                        "startLines": "185",
-                        "startColumns": "4",
-                        "startOffsets": "11729",
-                        "endColumns": "72",
-                        "endOffsets": "11797"
                     }
                 },
                 {
@@ -122,6 +105,23 @@
                         "startOffsets": "5607",
                         "endColumns": "42",
                         "endOffsets": "5645"
+                    }
+                },
+                {
+                    "source": "/Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "72",
+                        "endOffsets": "84"
+                    },
+                    "to": {
+                        "startLines": "185",
+                        "startColumns": "4",
+                        "startOffsets": "11729",
+                        "endColumns": "72",
+                        "endOffsets": "11797"
                     }
                 },
                 {
