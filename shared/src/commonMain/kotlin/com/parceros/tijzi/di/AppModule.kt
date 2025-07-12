@@ -5,9 +5,11 @@ import com.parceros.tijzi.data.remote.createHttpClient
 import com.parceros.tijzi.data.repository.impl.AuthRepositoryImpl
 import com.parceros.tijzi.data.repository.impl.CountryRepositoryImpl
 import com.parceros.tijzi.data.repository.impl.SessionRepositoryImpl
+import com.parceros.tijzi.data.repository.impl.RateLimitRepositoryImpl
 import com.parceros.tijzi.data.repository.AuthRepository
 import com.parceros.tijzi.data.repository.CountryRepository
 import com.parceros.tijzi.data.repository.SessionRepository
+import com.parceros.tijzi.data.repository.RateLimitRepository
 import com.parceros.tijzi.domain.usecase.RequestOtpUseCase
 import com.parceros.tijzi.domain.usecase.VerifyOtpUseCase
 import io.ktor.client.*
@@ -25,7 +27,7 @@ object AppModule {
         }
     }
 
-    // HTTP Client - usando la función centralizada de HttpClient.kt
+    // HTTP Client
     val httpClient: HttpClient by lazy {
         createHttpClient()
     }
@@ -39,14 +41,18 @@ object AppModule {
         CountryRepositoryImpl(httpClient)
     }
 
-    // SessionRepository (requiere SecureKeyValueStorage específico de plataforma)
+    // Repositorios que requieren SecureKeyValueStorage
     fun createSessionRepository(secureKeyValueStorage: SecureKeyValueStorage): SessionRepository {
         return SessionRepositoryImpl(secureKeyValueStorage, json)
     }
 
+    fun createRateLimitRepository(secureKeyValueStorage: SecureKeyValueStorage): RateLimitRepository {
+        return RateLimitRepositoryImpl(secureKeyValueStorage, json)
+    }
+
     // Use Cases
-    val requestOtpUseCase: RequestOtpUseCase by lazy {
-        RequestOtpUseCase(authRepository)
+    fun createRequestOtpUseCase(rateLimitRepository: RateLimitRepository): RequestOtpUseCase {
+        return RequestOtpUseCase(authRepository, rateLimitRepository)
     }
 
     fun createVerifyOtpUseCase(sessionRepository: SessionRepository): VerifyOtpUseCase {

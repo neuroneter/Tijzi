@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SharedCountryDtoCompanion, SharedCountryDto, SharedRequestOtpBodyDtoCompanion, SharedRequestOtpBodyDto, SharedRequestOtpDtoCompanion, SharedRequestOtpDto, SharedVerifyOtpBodyDtoCompanion, SharedVerifyOtpBodyDto, SharedVerifyOtpResponseDtoCompanion, SharedVerifyOtpResponseDto, SharedCountry, SharedUserSession, SharedKtor_client_coreHttpClient, SharedSecureKeyValueStorage, SharedKotlinx_serialization_jsonJson, SharedSessionRepositoryImplCompanion, SharedAppModule, SharedKotlinThrowable, SharedKotlinArray<T>, SharedKotlinException, SharedKotlinRuntimeException, SharedKotlinIllegalStateException, SharedKtor_client_coreHttpClientEngineConfig, SharedKtor_client_coreHttpClientConfig<T>, SharedKtor_eventsEvents, SharedKtor_client_coreHttpReceivePipeline, SharedKtor_client_coreHttpRequestPipeline, SharedKtor_client_coreHttpResponsePipeline, SharedKtor_client_coreHttpSendPipeline, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_jsonJsonDefault, SharedKotlinx_serialization_jsonJsonElement, SharedKotlinx_serialization_jsonJsonConfiguration, SharedKotlinx_serialization_coreSerialKind, SharedKotlinNothing, SharedKtor_client_coreHttpRequestData, SharedKtor_client_coreHttpResponseData, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKtor_client_coreProxyConfig, SharedKtor_utilsAttributeKey<T>, SharedKtor_eventsEventDefinition<T>, SharedKtor_utilsPipelinePhase, SharedKtor_utilsPipeline<TSubject, TContext>, SharedKtor_client_coreHttpReceivePipelinePhases, SharedKtor_client_coreHttpResponse, SharedKotlinUnit, SharedKtor_client_coreHttpRequestPipelinePhases, SharedKtor_client_coreHttpRequestBuilder, SharedKtor_client_coreHttpResponsePipelinePhases, SharedKtor_client_coreHttpResponseContainer, SharedKtor_client_coreHttpClientCall, SharedKtor_client_coreHttpSendPipelinePhases, SharedKotlinx_serialization_jsonJsonElementCompanion, SharedKtor_httpUrl, SharedKtor_httpHttpMethod, SharedKtor_httpOutgoingContent, SharedKtor_httpHttpStatusCode, SharedKtor_utilsGMTDate, SharedKtor_httpHttpProtocolVersion, SharedKotlinAbstractCoroutineContextElement, SharedKotlinx_coroutines_coreCoroutineDispatcherKey, SharedKtor_httpHeadersBuilder, SharedKtor_client_coreHttpRequestBuilderCompanion, SharedKtor_httpURLBuilder, SharedKtor_utilsTypeInfo, SharedKtor_client_coreHttpClientCallCompanion, SharedKtor_httpUrlCompanion, SharedKtor_httpURLProtocol, SharedKtor_httpHttpMethodCompanion, SharedKtor_httpContentType, SharedKotlinCancellationException, SharedKtor_httpHttpStatusCodeCompanion, SharedKtor_utilsGMTDateCompanion, SharedKtor_utilsWeekDay, SharedKtor_utilsMonth, SharedKtor_httpHttpProtocolVersionCompanion, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedKtor_ioMemory, SharedKtor_ioChunkBuffer, SharedKtor_ioBuffer, SharedKotlinByteArray, SharedKtor_ioByteReadPacket, SharedKtor_utilsStringValuesBuilderImpl, SharedKtor_httpURLBuilderCompanion, SharedKtor_httpURLProtocolCompanion, SharedKtor_httpHeaderValueParam, SharedKtor_httpHeaderValueWithParametersCompanion, SharedKtor_httpHeaderValueWithParameters, SharedKtor_httpContentTypeCompanion, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedKtor_utilsWeekDayCompanion, SharedKtor_utilsMonthCompanion, SharedKtor_ioMemoryCompanion, SharedKtor_ioBufferCompanion, SharedKtor_ioChunkBufferCompanion, SharedKotlinByteIterator, SharedKtor_ioInputCompanion, SharedKtor_ioInput, SharedKtor_ioByteReadPacketCompanion, SharedKotlinKTypeProjection, SharedKotlinKVariance, SharedKotlinKTypeProjectionCompanion;
+@class SharedCountryDtoCompanion, SharedCountryDto, SharedRequestOtpBodyDtoCompanion, SharedRequestOtpBodyDto, SharedRequestOtpDtoCompanion, SharedRequestOtpDto, SharedVerifyOtpBodyDtoCompanion, SharedVerifyOtpBodyDto, SharedVerifyOtpResponseDtoCompanion, SharedVerifyOtpResponseDto, SharedUserSession, SharedKtor_client_coreHttpClient, SharedOtpRequestDataCompanion, SharedOtpRequestData, SharedSecureKeyValueStorage, SharedKotlinx_serialization_jsonJson, SharedRateLimitRepositoryImplCompanion, SharedSessionRepositoryImplCompanion, SharedAppModule, SharedRequestOtpUseCase, SharedVerifyOtpUseCase, SharedCountryCompanion, SharedCountry, SharedUserSessionCompanion, SharedKotlinThrowable, SharedResult<__covariant T>, SharedResultFailure, SharedKotlinNothing, SharedResultSuccess<__covariant T>, SharedKotlinArray<T>, SharedKotlinException, SharedKotlinRuntimeException, SharedKotlinIllegalStateException, SharedKtor_client_coreHttpClientEngineConfig, SharedKtor_client_coreHttpClientConfig<T>, SharedKtor_eventsEvents, SharedKtor_client_coreHttpReceivePipeline, SharedKtor_client_coreHttpRequestPipeline, SharedKtor_client_coreHttpResponsePipeline, SharedKtor_client_coreHttpSendPipeline, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_jsonJsonDefault, SharedKotlinx_serialization_jsonJsonElement, SharedKotlinx_serialization_jsonJsonConfiguration, SharedKotlinx_serialization_coreSerialKind, SharedKtor_client_coreHttpRequestData, SharedKtor_client_coreHttpResponseData, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKtor_client_coreProxyConfig, SharedKtor_utilsAttributeKey<T>, SharedKtor_eventsEventDefinition<T>, SharedKtor_utilsPipelinePhase, SharedKtor_utilsPipeline<TSubject, TContext>, SharedKtor_client_coreHttpReceivePipelinePhases, SharedKtor_client_coreHttpResponse, SharedKotlinUnit, SharedKtor_client_coreHttpRequestPipelinePhases, SharedKtor_client_coreHttpRequestBuilder, SharedKtor_client_coreHttpResponsePipelinePhases, SharedKtor_client_coreHttpResponseContainer, SharedKtor_client_coreHttpClientCall, SharedKtor_client_coreHttpSendPipelinePhases, SharedKotlinx_serialization_jsonJsonElementCompanion, SharedKtor_httpUrl, SharedKtor_httpHttpMethod, SharedKtor_httpOutgoingContent, SharedKtor_httpHttpStatusCode, SharedKtor_utilsGMTDate, SharedKtor_httpHttpProtocolVersion, SharedKotlinAbstractCoroutineContextElement, SharedKotlinx_coroutines_coreCoroutineDispatcherKey, SharedKtor_httpHeadersBuilder, SharedKtor_client_coreHttpRequestBuilderCompanion, SharedKtor_httpURLBuilder, SharedKtor_utilsTypeInfo, SharedKtor_client_coreHttpClientCallCompanion, SharedKtor_httpUrlCompanion, SharedKtor_httpURLProtocol, SharedKtor_httpHttpMethodCompanion, SharedKtor_httpContentType, SharedKotlinCancellationException, SharedKtor_httpHttpStatusCodeCompanion, SharedKtor_utilsGMTDateCompanion, SharedKtor_utilsWeekDay, SharedKtor_utilsMonth, SharedKtor_httpHttpProtocolVersionCompanion, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedKtor_ioMemory, SharedKtor_ioChunkBuffer, SharedKtor_ioBuffer, SharedKotlinByteArray, SharedKtor_ioByteReadPacket, SharedKtor_utilsStringValuesBuilderImpl, SharedKtor_httpURLBuilderCompanion, SharedKtor_httpURLProtocolCompanion, SharedKtor_httpHeaderValueParam, SharedKtor_httpHeaderValueWithParametersCompanion, SharedKtor_httpHeaderValueWithParameters, SharedKtor_httpContentTypeCompanion, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedKtor_utilsWeekDayCompanion, SharedKtor_utilsMonthCompanion, SharedKtor_ioMemoryCompanion, SharedKtor_ioBufferCompanion, SharedKtor_ioChunkBufferCompanion, SharedKotlinByteIterator, SharedKtor_ioInputCompanion, SharedKtor_ioInput, SharedKtor_ioByteReadPacketCompanion, SharedKotlinKTypeProjection, SharedKotlinKVariance, SharedKotlinKTypeProjectionCompanion;
 
-@protocol SharedPlatform, SharedKotlinx_serialization_coreKSerializer, SharedAuthRepository, SharedCountryRepository, SharedSessionRepository, SharedKotlinx_serialization_coreEncoder, SharedKotlinx_serialization_coreSerialDescriptor, SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreDecoder, SharedKotlinx_serialization_coreDeserializationStrategy, SharedKotlinCoroutineContext, SharedKotlinx_coroutines_coreCoroutineScope, SharedKtor_ioCloseable, SharedKtor_client_coreHttpClientEngine, SharedKtor_client_coreHttpClientEngineCapability, SharedKtor_utilsAttributes, SharedKotlinx_serialization_coreSerialFormat, SharedKotlinx_serialization_coreStringFormat, SharedKotlinx_serialization_coreCompositeEncoder, SharedKotlinAnnotation, SharedKotlinx_serialization_coreCompositeDecoder, SharedKotlinIterator, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContextKey, SharedKtor_client_coreHttpClientPlugin, SharedKotlinx_coroutines_coreDisposableHandle, SharedKotlinSuspendFunction2, SharedKotlinx_serialization_coreSerializersModuleCollector, SharedKotlinKClass, SharedKotlinx_serialization_jsonJsonNamingStrategy, SharedKtor_httpHeaders, SharedKotlinx_coroutines_coreJob, SharedKotlinContinuation, SharedKotlinContinuationInterceptor, SharedKotlinx_coroutines_coreRunnable, SharedKotlinFunction, SharedKtor_httpHttpMessage, SharedKtor_ioByteReadChannel, SharedKtor_httpHttpMessageBuilder, SharedKtor_client_coreHttpRequest, SharedKotlinKDeclarationContainer, SharedKotlinKAnnotatedElement, SharedKotlinKClassifier, SharedKtor_httpParameters, SharedKotlinMapEntry, SharedKtor_utilsStringValues, SharedKotlinx_coroutines_coreChildHandle, SharedKotlinx_coroutines_coreChildJob, SharedKotlinSequence, SharedKotlinx_coroutines_coreSelectClause0, SharedKotlinComparable, SharedKtor_ioReadSession, SharedKotlinSuspendFunction1, SharedKotlinAppendable, SharedKtor_utilsStringValuesBuilder, SharedKtor_httpParametersBuilder, SharedKotlinKType, SharedKotlinx_coroutines_coreParentJob, SharedKotlinx_coroutines_coreSelectInstance, SharedKotlinx_coroutines_coreSelectClause, SharedKtor_ioObjectPool;
+@protocol SharedPlatform, SharedKotlinx_serialization_coreKSerializer, SharedKotlinx_coroutines_coreFlow, SharedAuthRepository, SharedCountryRepository, SharedRateLimitRepository, SharedSessionRepository, SharedKotlinx_serialization_coreEncoder, SharedKotlinx_serialization_coreSerialDescriptor, SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreDecoder, SharedKotlinx_serialization_coreDeserializationStrategy, SharedKotlinx_coroutines_coreFlowCollector, SharedKotlinCoroutineContext, SharedKotlinx_coroutines_coreCoroutineScope, SharedKtor_ioCloseable, SharedKtor_client_coreHttpClientEngine, SharedKtor_client_coreHttpClientEngineCapability, SharedKtor_utilsAttributes, SharedKotlinx_serialization_coreSerialFormat, SharedKotlinx_serialization_coreStringFormat, SharedKotlinx_serialization_coreCompositeEncoder, SharedKotlinAnnotation, SharedKotlinx_serialization_coreCompositeDecoder, SharedKotlinIterator, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContextKey, SharedKtor_client_coreHttpClientPlugin, SharedKotlinx_coroutines_coreDisposableHandle, SharedKotlinSuspendFunction2, SharedKotlinx_serialization_coreSerializersModuleCollector, SharedKotlinKClass, SharedKotlinx_serialization_jsonJsonNamingStrategy, SharedKtor_httpHeaders, SharedKotlinx_coroutines_coreJob, SharedKotlinContinuation, SharedKotlinContinuationInterceptor, SharedKotlinx_coroutines_coreRunnable, SharedKotlinFunction, SharedKtor_httpHttpMessage, SharedKtor_ioByteReadChannel, SharedKtor_httpHttpMessageBuilder, SharedKtor_client_coreHttpRequest, SharedKotlinKDeclarationContainer, SharedKotlinKAnnotatedElement, SharedKotlinKClassifier, SharedKtor_httpParameters, SharedKotlinMapEntry, SharedKtor_utilsStringValues, SharedKotlinx_coroutines_coreChildHandle, SharedKotlinx_coroutines_coreChildJob, SharedKotlinSequence, SharedKotlinx_coroutines_coreSelectClause0, SharedKotlinComparable, SharedKtor_ioReadSession, SharedKotlinSuspendFunction1, SharedKotlinAppendable, SharedKtor_utilsStringValuesBuilder, SharedKtor_httpParametersBuilder, SharedKotlinKType, SharedKotlinx_coroutines_coreParentJob, SharedKotlinx_coroutines_coreSelectInstance, SharedKotlinx_coroutines_coreSelectClause, SharedKtor_ioObjectPool;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -172,9 +172,9 @@ __attribute__((swift_name("SecureKeyValueStorage")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)clearAll __attribute__((swift_name("clearAll()")));
-- (NSString * _Nullable)getStringKey:(NSString *)key defaultValue:(NSString * _Nullable)defaultValue __attribute__((swift_name("getString(key:defaultValue:)")));
-- (void)putStringKey:(NSString *)key value:(NSString * _Nullable)value __attribute__((swift_name("putString(key:value:)")));
-- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
+- (NSString * _Nullable)getStringKey:(NSString *)key __attribute__((swift_name("getString(key:)")));
+- (void)removeStringKey:(NSString *)key __attribute__((swift_name("removeString(key:)")));
+- (void)saveStringKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("saveString(key:value:)")));
 @end
 
 
@@ -185,22 +185,34 @@ __attribute__((swift_name("SecureKeyValueStorage")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CountryDto")))
 @interface SharedCountryDto : SharedBase
-- (instancetype)initWithNameEs:(NSString *)nameEs nameEn:(NSString *)nameEn phoneCode:(NSString *)phoneCode numberLength:(NSString *)numberLength __attribute__((swift_name("init(nameEs:nameEn:phoneCode:numberLength:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNameEs:(NSString *)nameEs nameEn:(NSString *)nameEn isoCode:(NSString *)isoCode phoneCode:(NSString *)phoneCode numberLength:(NSString * _Nullable)numberLength customRegexPattern:(NSString * _Nullable)customRegexPattern __attribute__((swift_name("init(nameEs:nameEn:isoCode:phoneCode:numberLength:customRegexPattern:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SharedCountryDtoCompanion *companion __attribute__((swift_name("companion")));
-- (SharedCountryDto *)doCopyNameEs:(NSString *)nameEs nameEn:(NSString *)nameEn phoneCode:(NSString *)phoneCode numberLength:(NSString *)numberLength __attribute__((swift_name("doCopy(nameEs:nameEn:phoneCode:numberLength:)")));
+- (SharedCountryDto *)doCopyNameEs:(NSString *)nameEs nameEn:(NSString *)nameEn isoCode:(NSString *)isoCode phoneCode:(NSString *)phoneCode numberLength:(NSString * _Nullable)numberLength customRegexPattern:(NSString * _Nullable)customRegexPattern __attribute__((swift_name("doCopy(nameEs:nameEn:isoCode:phoneCode:numberLength:customRegexPattern:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 
 /**
  * @note annotations
- *   kotlinx.serialization.SerialName(value="nameEN")
+ *   kotlinx.serialization.SerialName(value="customRegexPattern")
+*/
+@property (readonly) NSString * _Nullable customRegexPattern __attribute__((swift_name("customRegexPattern")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="isoCode")
+*/
+@property (readonly) NSString *isoCode __attribute__((swift_name("isoCode")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.SerialName(value="nameEn")
 */
 @property (readonly) NSString *nameEn __attribute__((swift_name("nameEn")));
 
 /**
  * @note annotations
- *   kotlinx.serialization.SerialName(value="nameES")
+ *   kotlinx.serialization.SerialName(value="nameEs")
 */
 @property (readonly) NSString *nameEs __attribute__((swift_name("nameEs")));
 
@@ -208,7 +220,7 @@ __attribute__((swift_name("CountryDto")))
  * @note annotations
  *   kotlinx.serialization.SerialName(value="numberLength")
 */
-@property (readonly) NSString *numberLength __attribute__((swift_name("numberLength")));
+@property (readonly) NSString * _Nullable numberLength __attribute__((swift_name("numberLength")));
 
 /**
  * @note annotations
@@ -352,29 +364,14 @@ __attribute__((swift_name("VerifyOtpResponseDto.Companion")))
 __attribute__((swift_name("AuthRepository")))
 @protocol SharedAuthRepository
 @required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)requestOtpCountryCode:(NSString *)countryCode phoneNumber:(NSString *)phoneNumber completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("requestOtp(countryCode:phoneNumber:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)verifyOtpCountryCode:(NSString *)countryCode phoneNumber:(NSString *)phoneNumber otp:(NSString *)otp completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("verifyOtp(countryCode:phoneNumber:otp:completionHandler:)")));
+- (id<SharedKotlinx_coroutines_coreFlow>)requestOtpCountryCode:(NSString *)countryCode phoneNumber:(NSString *)phoneNumber __attribute__((swift_name("requestOtp(countryCode:phoneNumber:)")));
+- (id<SharedKotlinx_coroutines_coreFlow>)verifyOtpCountryCode:(NSString *)countryCode phoneNumber:(NSString *)phoneNumber otp:(NSString *)otp __attribute__((swift_name("verifyOtp(countryCode:phoneNumber:otp:)")));
 @end
 
 __attribute__((swift_name("CountryRepository")))
 @protocol SharedCountryRepository
 @required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getCountriesWithCompletionHandler:(void (^)(NSArray<SharedCountry *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getCountries(completionHandler:)")));
+- (id<SharedKotlinx_coroutines_coreFlow>)getCountries __attribute__((swift_name("getCountries()")));
 @end
 
 __attribute__((swift_name("RateLimitRepository")))
@@ -397,91 +394,93 @@ __attribute__((swift_name("RateLimitRepository")))
 __attribute__((swift_name("SessionRepository")))
 @protocol SharedSessionRepository
 @required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)clearUserSessionWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("clearUserSession(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getTokenWithCompletionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getToken(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getUserSessionWithCompletionHandler:(void (^)(SharedUserSession * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserSession(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)saveUserSessionUserSession:(SharedUserSession *)userSession completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("saveUserSession(userSession:completionHandler:)")));
+- (id<SharedKotlinx_coroutines_coreFlow>)clearSession __attribute__((swift_name("clearSession()")));
+- (id<SharedKotlinx_coroutines_coreFlow>)getSession __attribute__((swift_name("getSession()")));
+- (id<SharedKotlinx_coroutines_coreFlow>)getToken __attribute__((swift_name("getToken()")));
+- (id<SharedKotlinx_coroutines_coreFlow>)isLoggedIn __attribute__((swift_name("isLoggedIn()")));
+- (id<SharedKotlinx_coroutines_coreFlow>)saveSessionUserSession:(SharedUserSession *)userSession __attribute__((swift_name("saveSession(userSession:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AuthRepositoryImpl")))
 @interface SharedAuthRepositoryImpl : SharedBase <SharedAuthRepository>
 - (instancetype)initWithHttpClient:(SharedKtor_client_coreHttpClient *)httpClient __attribute__((swift_name("init(httpClient:)"))) __attribute__((objc_designated_initializer));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)requestOtpCountryCode:(NSString *)countryCode phoneNumber:(NSString *)phoneNumber completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("requestOtp(countryCode:phoneNumber:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)verifyOtpCountryCode:(NSString *)countryCode phoneNumber:(NSString *)phoneNumber otp:(NSString *)otp completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("verifyOtp(countryCode:phoneNumber:otp:completionHandler:)")));
+- (id<SharedKotlinx_coroutines_coreFlow>)requestOtpCountryCode:(NSString *)countryCode phoneNumber:(NSString *)phoneNumber __attribute__((swift_name("requestOtp(countryCode:phoneNumber:)")));
+- (id<SharedKotlinx_coroutines_coreFlow>)verifyOtpCountryCode:(NSString *)countryCode phoneNumber:(NSString *)phoneNumber otp:(NSString *)otp __attribute__((swift_name("verifyOtp(countryCode:phoneNumber:otp:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("CountryRepositoryImpl")))
 @interface SharedCountryRepositoryImpl : SharedBase <SharedCountryRepository>
 - (instancetype)initWithHttpClient:(SharedKtor_client_coreHttpClient *)httpClient __attribute__((swift_name("init(httpClient:)"))) __attribute__((objc_designated_initializer));
+- (id<SharedKotlinx_coroutines_coreFlow>)getCountries __attribute__((swift_name("getCountries()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OtpRequestData")))
+@interface SharedOtpRequestData : SharedBase
+- (instancetype)initWithRequests:(NSArray<SharedLong *> *)requests __attribute__((swift_name("init(requests:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedOtpRequestDataCompanion *companion __attribute__((swift_name("companion")));
+- (SharedOtpRequestData *)doCopyRequests:(NSArray<SharedLong *> *)requests __attribute__((swift_name("doCopy(requests:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<SharedLong *> *requests __attribute__((swift_name("requests")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OtpRequestData.Companion")))
+@interface SharedOtpRequestDataCompanion : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedOtpRequestDataCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RateLimitRepositoryImpl")))
+@interface SharedRateLimitRepositoryImpl : SharedBase <SharedRateLimitRepository>
+- (instancetype)initWithSecureStorage:(SharedSecureKeyValueStorage *)secureStorage json:(SharedKotlinx_serialization_jsonJson *)json __attribute__((swift_name("init(secureStorage:json:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedRateLimitRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)getCountriesWithCompletionHandler:(void (^)(NSArray<SharedCountry *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getCountries(completionHandler:)")));
+- (void)canRequestOtpIdentifier:(NSString *)identifier completionHandler:(void (^)(SharedBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("canRequestOtp(identifier:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)recordOtpRequestIdentifier:(NSString *)identifier completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("recordOtpRequest(identifier:completionHandler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RateLimitRepositoryImpl.Companion")))
+@interface SharedRateLimitRepositoryImplCompanion : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedRateLimitRepositoryImplCompanion *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("SessionRepositoryImpl")))
 @interface SharedSessionRepositoryImpl : SharedBase <SharedSessionRepository>
-- (instancetype)initWithSecureKeyValueStorage:(SharedSecureKeyValueStorage *)secureKeyValueStorage json:(SharedKotlinx_serialization_jsonJson *)json __attribute__((swift_name("init(secureKeyValueStorage:json:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithSecureStorage:(SharedSecureKeyValueStorage *)secureStorage json:(SharedKotlinx_serialization_jsonJson *)json __attribute__((swift_name("init(secureStorage:json:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) SharedSessionRepositoryImplCompanion *companion __attribute__((swift_name("companion")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)clearUserSessionWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("clearUserSession(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getTokenWithCompletionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getToken(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getUserSessionWithCompletionHandler:(void (^)(SharedUserSession * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getUserSession(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)saveUserSessionUserSession:(SharedUserSession *)userSession completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("saveUserSession(userSession:completionHandler:)")));
+- (id<SharedKotlinx_coroutines_coreFlow>)clearSession __attribute__((swift_name("clearSession()")));
+- (id<SharedKotlinx_coroutines_coreFlow>)getSession __attribute__((swift_name("getSession()")));
+- (id<SharedKotlinx_coroutines_coreFlow>)getToken __attribute__((swift_name("getToken()")));
+- (id<SharedKotlinx_coroutines_coreFlow>)isLoggedIn __attribute__((swift_name("isLoggedIn()")));
+- (id<SharedKotlinx_coroutines_coreFlow>)saveSessionUserSession:(SharedUserSession *)userSession __attribute__((swift_name("saveSession(userSession:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -500,32 +499,58 @@ __attribute__((swift_name("AppModule")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)appModule __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) SharedAppModule *shared __attribute__((swift_name("shared")));
+- (id<SharedRateLimitRepository>)createRateLimitRepositorySecureKeyValueStorage:(SharedSecureKeyValueStorage *)secureKeyValueStorage __attribute__((swift_name("createRateLimitRepository(secureKeyValueStorage:)")));
+- (SharedRequestOtpUseCase *)createRequestOtpUseCaseRateLimitRepository:(id<SharedRateLimitRepository>)rateLimitRepository __attribute__((swift_name("createRequestOtpUseCase(rateLimitRepository:)")));
 - (id<SharedSessionRepository>)createSessionRepositorySecureKeyValueStorage:(SharedSecureKeyValueStorage *)secureKeyValueStorage __attribute__((swift_name("createSessionRepository(secureKeyValueStorage:)")));
+- (SharedVerifyOtpUseCase *)createVerifyOtpUseCaseSessionRepository:(id<SharedSessionRepository>)sessionRepository __attribute__((swift_name("createVerifyOtpUseCase(sessionRepository:)")));
 @property (readonly) id<SharedAuthRepository> authRepository __attribute__((swift_name("authRepository")));
 @property (readonly) id<SharedCountryRepository> countryRepository __attribute__((swift_name("countryRepository")));
 @property (readonly) SharedKtor_client_coreHttpClient *httpClient __attribute__((swift_name("httpClient")));
 @property (readonly) SharedKotlinx_serialization_jsonJson *json __attribute__((swift_name("json")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Country")))
 @interface SharedCountry : SharedBase
-- (instancetype)initWithNameEs:(NSString *)nameEs nameEn:(NSString *)nameEn phoneCode:(NSString *)phoneCode numberLength:(NSString *)numberLength customRegexPattern:(NSString * _Nullable)customRegexPattern __attribute__((swift_name("init(nameEs:nameEn:phoneCode:numberLength:customRegexPattern:)"))) __attribute__((objc_designated_initializer));
-- (SharedCountry *)doCopyNameEs:(NSString *)nameEs nameEn:(NSString *)nameEn phoneCode:(NSString *)phoneCode numberLength:(NSString *)numberLength customRegexPattern:(NSString * _Nullable)customRegexPattern __attribute__((swift_name("doCopy(nameEs:nameEn:phoneCode:numberLength:customRegexPattern:)")));
+- (instancetype)initWithNameEs:(NSString *)nameEs nameEn:(NSString *)nameEn isoCode:(NSString *)isoCode phoneCode:(NSString *)phoneCode numberLength:(NSString * _Nullable)numberLength customRegexPattern:(NSString * _Nullable)customRegexPattern __attribute__((swift_name("init(nameEs:nameEn:isoCode:phoneCode:numberLength:customRegexPattern:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedCountryCompanion *companion __attribute__((swift_name("companion")));
+- (SharedCountry *)doCopyNameEs:(NSString *)nameEs nameEn:(NSString *)nameEn isoCode:(NSString *)isoCode phoneCode:(NSString *)phoneCode numberLength:(NSString * _Nullable)numberLength customRegexPattern:(NSString * _Nullable)customRegexPattern __attribute__((swift_name("doCopy(nameEs:nameEn:isoCode:phoneCode:numberLength:customRegexPattern:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property NSString * _Nullable customRegexPattern __attribute__((swift_name("customRegexPattern")));
+@property (readonly) NSString *isoCode __attribute__((swift_name("isoCode")));
 @property (readonly) NSString *nameEn __attribute__((swift_name("nameEn")));
 @property (readonly) NSString *nameEs __attribute__((swift_name("nameEs")));
-@property (readonly) NSString *numberLength __attribute__((swift_name("numberLength")));
+@property (readonly) NSString * _Nullable numberLength __attribute__((swift_name("numberLength")));
 @property (readonly) NSString *phoneCode __attribute__((swift_name("phoneCode")));
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Country.Companion")))
+@interface SharedCountryCompanion : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedCountryCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("UserSession")))
 @interface SharedUserSession : SharedBase
 - (instancetype)initWithSessionToken:(NSString *)sessionToken userId:(NSString * _Nullable)userId phoneNumber:(NSString * _Nullable)phoneNumber __attribute__((swift_name("init(sessionToken:userId:phoneNumber:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) SharedUserSessionCompanion *companion __attribute__((swift_name("companion")));
 - (SharedUserSession *)doCopySessionToken:(NSString *)sessionToken userId:(NSString * _Nullable)userId phoneNumber:(NSString * _Nullable)phoneNumber __attribute__((swift_name("doCopy(sessionToken:userId:phoneNumber:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -536,15 +561,57 @@ __attribute__((swift_name("UserSession")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("GetCountriesUseCase")))
-@interface SharedGetCountriesUseCase : SharedBase
-- (instancetype)initWithCountryRepository:(id<SharedCountryRepository>)countryRepository __attribute__((swift_name("init(countryRepository:)"))) __attribute__((objc_designated_initializer));
+__attribute__((swift_name("UserSession.Companion")))
+@interface SharedUserSessionCompanion : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedUserSessionCompanion *shared __attribute__((swift_name("shared")));
+- (id<SharedKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
 
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)executeWithCompletionHandler:(void (^)(NSArray<SharedCountry *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("execute(completionHandler:)")));
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RequestOtpUseCase")))
+@interface SharedRequestOtpUseCase : SharedBase
+- (instancetype)initWithAuthRepository:(id<SharedAuthRepository>)authRepository rateLimitRepository:(id<SharedRateLimitRepository>)rateLimitRepository __attribute__((swift_name("init(authRepository:rateLimitRepository:)"))) __attribute__((objc_designated_initializer));
+- (id<SharedKotlinx_coroutines_coreFlow>)invokeCountryCode:(NSString *)countryCode phoneNumber:(NSString *)phoneNumber __attribute__((swift_name("invoke(countryCode:phoneNumber:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VerifyOtpUseCase")))
+@interface SharedVerifyOtpUseCase : SharedBase
+- (instancetype)initWithAuthRepository:(id<SharedAuthRepository>)authRepository sessionRepository:(id<SharedSessionRepository>)sessionRepository __attribute__((swift_name("init(authRepository:sessionRepository:)"))) __attribute__((objc_designated_initializer));
+- (id<SharedKotlinx_coroutines_coreFlow>)invokeCountryCode:(NSString *)countryCode phoneNumber:(NSString *)phoneNumber otp:(NSString *)otp __attribute__((swift_name("invoke(countryCode:phoneNumber:otp:)")));
+@end
+
+__attribute__((swift_name("Result")))
+@interface SharedResult<__covariant T> : SharedBase
+- (SharedKotlinThrowable * _Nullable)exceptionOrNull __attribute__((swift_name("exceptionOrNull()")));
+- (T _Nullable)getOrNull __attribute__((swift_name("getOrNull()")));
+@property (readonly) BOOL isFailure __attribute__((swift_name("isFailure")));
+@property (readonly) BOOL isSuccess __attribute__((swift_name("isSuccess")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ResultFailure")))
+@interface SharedResultFailure : SharedResult<SharedKotlinNothing *>
+- (instancetype)initWithException:(SharedKotlinThrowable *)exception __attribute__((swift_name("init(exception:)"))) __attribute__((objc_designated_initializer));
+- (SharedResultFailure *)doCopyException:(SharedKotlinThrowable *)exception __attribute__((swift_name("doCopy(exception:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) SharedKotlinThrowable *exception __attribute__((swift_name("exception")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ResultSuccess")))
+@interface SharedResultSuccess<__covariant T> : SharedResult<T>
+- (instancetype)initWithData:(T _Nullable)data __attribute__((swift_name("init(data:)"))) __attribute__((objc_designated_initializer));
+- (SharedResultSuccess<T> *)doCopyData:(T _Nullable)data __attribute__((swift_name("doCopy(data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) T _Nullable data __attribute__((swift_name("data")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -576,6 +643,17 @@ __attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
 __attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
 @protocol SharedKotlinx_serialization_coreKSerializer <SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreDeserializationStrategy>
 @required
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
+@protocol SharedKotlinx_coroutines_coreFlow
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<SharedKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
 @end
 
 __attribute__((swift_name("KotlinThrowable")))
@@ -694,6 +772,11 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJson")))
 - (SharedKotlinx_serialization_jsonJsonElement *)parseToJsonElementString:(NSString *)string __attribute__((swift_name("parseToJsonElement(string:)")));
 @property (readonly) SharedKotlinx_serialization_jsonJsonConfiguration *configuration __attribute__((swift_name("configuration")));
 @property (readonly) SharedKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinNothing")))
+@interface SharedKotlinNothing : SharedBase
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -835,6 +918,17 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 - (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
 - (NSString *)decodeString __attribute__((swift_name("decodeString()")));
 @property (readonly) SharedKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
+@protocol SharedKotlinx_coroutines_coreFlowCollector
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)emitValue:(id _Nullable)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1155,11 +1249,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreCompositeDecoder")))
 - (NSString *)decodeStringElementDescriptor:(id<SharedKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("decodeStringElement(descriptor:index:)")));
 - (void)endStructureDescriptor:(id<SharedKotlinx_serialization_coreSerialDescriptor>)descriptor __attribute__((swift_name("endStructure(descriptor:)")));
 @property (readonly) SharedKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinNothing")))
-@interface SharedKotlinNothing : SharedBase
 @end
 
 __attribute__((swift_name("KotlinIterator")))

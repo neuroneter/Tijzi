@@ -5,15 +5,21 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class CountryDto(
-    @SerialName("nameES")
+    @SerialName("nameEs")
     val nameEs: String,
 
-    @SerialName("nameEN")
+    @SerialName("nameEn")
     val nameEn: String,
+
+    @SerialName("isoCode")
+    val isoCode: String,
 
     @SerialName("phoneCode")
     val phoneCode: String,
 
     @SerialName("numberLength")
-    val numberLength: String
+    val numberLength: String? = null,
+
+    @SerialName("customRegexPattern")
+    val customRegexPattern: String? = null
 )
