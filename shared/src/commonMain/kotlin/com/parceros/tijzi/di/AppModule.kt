@@ -57,6 +57,6 @@ object AppModule {
     }
 
     fun createVerifyOtpUseCase(sessionRepository: SessionRepository): VerifyOtpUseCase {
-        return VerifyOtpUseCase(authRepository, sessionRepository)
+        return VerifyOtpUseCase(authRepository, sessionRepository, countryRepository)
     }
 }
