@@ -1,3 +1,4 @@
+// shared/src/commonMain/kotlin/com/parceros/tijzi/di/AppModule.kt
 package com.parceros.tijzi.di
 
 import com.parceros.tijzi.data.datasources.SecureKeyValueStorage
@@ -52,7 +53,7 @@ object AppModule {
 
     // Use Cases
     fun createRequestOtpUseCase(rateLimitRepository: RateLimitRepository): RequestOtpUseCase {
-        return RequestOtpUseCase(authRepository, rateLimitRepository)
+        return RequestOtpUseCase(authRepository, rateLimitRepository, countryRepository)
     }
 
     fun createVerifyOtpUseCase(sessionRepository: SessionRepository): VerifyOtpUseCase {
