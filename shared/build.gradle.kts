@@ -1,5 +1,5 @@
-import org.gradle.kotlin.dsl.implementation // Esta importación puede no ser necesaria si usas la función implementation directamente
-import org.jetbrains.kotlin.gradle.dsl.JvmTarget // Asegúrate que JvmTarget se resuelve, sino import org.jetbrains.kotlin.gradle.dsl.KotlinJvmTarget
+import org.gradle.kotlin.dsl.implementation
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
@@ -12,7 +12,7 @@ kotlin {
         compilations.all {
             compileTaskProvider.configure {
                 compilerOptions {
-                    jvmTarget.set(JvmTarget.JVM_1_8) // O KotlinJvmTarget.JVM_1_8 si JvmTarget no se resuelve
+                    jvmTarget.set(JvmTarget.JVM_1_8)
                 }
             }
         }
@@ -30,7 +30,7 @@ kotlin {
     }
 
     sourceSets {
-        val commonMain by getting { // Usar 'val commonMain by getting' es más idiomático aquí
+        val commonMain by getting {
             dependencies {
                 implementation(libs.ktor.client.core)
                 implementation(libs.ktor.client.content.negotiation)
@@ -38,21 +38,16 @@ kotlin {
                 implementation(libs.ktor.client.logging)
                 implementation(libs.kotlinx.coroutines.core)
                 implementation(libs.kotlinx.datetime)
-
-                // AÑADE ESTA LÍNEA PARA EL MOTOR KTOR CIO
-                implementation(libs.ktor.client.cio) // Asumiendo que tienes 'ktor-client-cio' definido en tu libs.versions.toml
-
-                //put your multiplatform dependencies here
+                implementation(libs.ktor.client.cio)
             }
         }
-        val androidMain by getting { // Usar 'val androidMain by getting'
+        val androidMain by getting {
             dependencies {
                 implementation(libs.androidx.security.crypto)
-                implementation(libs.ktor.client.android) // Para Android puedes seguir usando el motor Android si prefieres, o CIO también.
-                // Si quieres usar CIO para Android también, puedes mover la dependencia de CIO a commonMain.
+                implementation(libs.ktor.client.android)
             }
         }
-        val commonTest by getting { // Usar 'val commonTest by getting'
+        val commonTest by getting {
             dependencies {
                 implementation(libs.kotlin.test)
             }
@@ -62,7 +57,7 @@ kotlin {
 
 android {
     namespace = "com.parceros.tijzi"
-    compileSdk = 35 // Nota: SDK 35 es una versión futura (developer preview). Asegúrate de tenerlo configurado.
+    compileSdk = 35
     defaultConfig {
         minSdk = 28
     }
@@ -71,4 +66,3 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 }
-

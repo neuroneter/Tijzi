@@ -24,16 +24,17 @@ fun createHttpClient(): HttpClient {
             level = LogLevel.BODY // Cambiar a LogLevel.INFO para producción
         }
 
-        // 🔥 NUEVO: Configuración del engine CIO más robusta
+        // 🔥 MEJORADO: Configuración del engine CIO con timeouts más apropiados
         engine {
-            // Configuraciones específicas de CIO
             maxConnectionsCount = 1000
             endpoint {
                 maxConnectionsPerRoute = 100
                 pipelineMaxSize = 20
                 keepAliveTime = 5000
-                connectTimeout = 15000
-                connectAttempts = 5
+                connectTimeout = 15000      // 15s para conectar
+                socketTimeout = 30000       // 🔥 AÑADIDO: 30s para recibir datos
+                requestTimeout = 45000      // 🔥 AÑADIDO: 45s total por request
+                connectAttempts = 3         // 🔥 MEJORADO: Reducido de 5 a 3
             }
         }
     }

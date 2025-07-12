@@ -1,9 +1,9 @@
 package com.parceros.tijzi.data.repository.impl
 
-import com.parceros.tijzi.data.datasources.SecureKeyValueStorage // TU EXPECT CLASS
+import com.parceros.tijzi.data.datasources.SecureKeyValueStorage
 import com.parceros.tijzi.data.repository.SessionRepository
 import com.parceros.tijzi.domain.model.UserSession
-import com.parceros.tijzi.util.Result // Tu clase Result
+import com.parceros.tijzi.util.Result
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
@@ -13,12 +13,11 @@ import kotlinx.serialization.json.Json
 
 class SessionRepositoryImpl(
     private val secureStorage: SecureKeyValueStorage,
-    private val json: Json // Inyecta Json para serializar/deserializar
+    private val json: Json
 ) : SessionRepository {
 
     companion object {
         private const val KEY_USER_SESSION = "user_session_key"
-        private const val KEY_SESSION_TOKEN = "session_token_key" // DEFINE LA CLAVE AQUÍ
     }
 
     override fun saveSession(userSession: UserSession): Flow<Result<Unit>> = flow {
@@ -27,7 +26,6 @@ class SessionRepositoryImpl(
             secureStorage.saveString(KEY_USER_SESSION, sessionJson)
             emit(Result.Success(Unit))
         } catch (e: Exception) {
-            // e.printStackTrace()
             emit(Result.Failure(e))
         }
     }
@@ -39,11 +37,9 @@ class SessionRepositoryImpl(
                 val userSession = json.decodeFromString<UserSession>(sessionJson)
                 emit(Result.Success(userSession))
             } else {
-                emit(Result.Success(null)) // No hay sesión guardada
+                emit(Result.Success(null))
             }
         } catch (e: Exception) {
-            // e.printStackTrace()
-            // Podría fallar si los datos guardados están corruptos o la clave no existe
             emit(Result.Failure(e))
         }
     }
@@ -53,23 +49,21 @@ class SessionRepositoryImpl(
             secureStorage.removeString(KEY_USER_SESSION)
             emit(Result.Success(Unit))
         } catch (e: Exception) {
-            // e.printStackTrace()
             emit(Result.Failure(e))
         }
     }
 
     override fun isLoggedIn(): Flow<Boolean> {
-        // Se basa en getSession para determinar si está logueado
         return getSession().map { result ->
             result is Result.Success && result.data?.sessionToken?.isNotBlank() == true
         }.catch {
-            emit(false) // Si hay error al obtener sesión, asumir no logueado
+            emit(false)
         }
     }
 
     override fun getToken(): Flow<String?> = flow {
         try {
-            val sessionJson = secureStorage.getString(KEY_USER_SESSION) // Usa la clave de UserSession
+            val sessionJson = secureStorage.getString(KEY_USER_SESSION)
             if (sessionJson != null) {
                 val userSession = json.decodeFromString<UserSession>(sessionJson)
                 emit(userSession.sessionToken)
@@ -80,5 +74,4 @@ class SessionRepositoryImpl(
             emit(null)
         }
     }
-
 }
