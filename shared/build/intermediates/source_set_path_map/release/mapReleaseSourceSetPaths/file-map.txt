@@ -1,0 +1,10 @@
+com.parceros.tijzi.shared-security-crypto-1.1.0-alpha06-0 /Users/neuroneter/.gradle/caches/8.11.1/transforms/b8872d83a4140108ad6d56c079ec5ce6/transformed/security-crypto-1.1.0-alpha06/res
+com.parceros.tijzi.shared-pngs-1 /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/generated/res/pngs/release
+com.parceros.tijzi.shared-resValues-2 /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/generated/res/resValues/release
+com.parceros.tijzi.shared-mergeReleaseResources-3 /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.parceros.tijzi.shared-mergeReleaseResources-4 /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.parceros.tijzi.shared-release-5 /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/merged_res/release/mergeReleaseResources
+com.parceros.tijzi.shared-androidMain-6 /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/src/androidMain/res
+com.parceros.tijzi.shared-androidRelease-7 /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/src/androidRelease/res
+com.parceros.tijzi.shared-main-8 /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/src/main/res
+com.parceros.tijzi.shared-release-9 /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/src/release/res

@@ -19,6 +19,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.parceros.tijzi.android.di.AndroidAuthViewModel
+import com.parceros.tijzi.android.ui.screens.auth.LoginScreen  // 🔥 IMPORT AGREGADO
 import com.parceros.tijzi.presentation.model.AuthNavigationEvent
 
 // Rutas de navegación
@@ -76,20 +77,10 @@ fun AuthNavigation(
         startDestination = AuthRoutes.LOGIN
     ) {
         composable(AuthRoutes.LOGIN) {
-            // TODO: Implementar LoginScreen
-            TemporaryScreen(
-                title = "Login Screen",
-                content = """
-                    ✅ Shared ViewModel funcionando!
-                    
-                    Estado actual:
-                    • Loading: ${uiState.isLoading}
-                    • Error: ${uiState.error ?: "None"}
-                    • Countries loaded: ${uiState.countries.size}
-                    • Phone: ${uiState.phoneNumber}
-                    • Country: ${uiState.selectedCountry?.nameEs ?: "None"}
-                    • Step: ${uiState.currentStep}
-                """.trimIndent()
+            // 🔥 AQUÍ ESTABA EL PROBLEMA - Ahora usa LoginScreen real
+            LoginScreen(
+                uiState = uiState,
+                onEvent = authViewModel::onEvent
             )
         }
 

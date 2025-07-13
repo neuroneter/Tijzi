@@ -1,0 +1,126 @@
+{
+  "projectStructure": {
+    "formatVersion": "0.3.3",
+    "isPublishedAsRoot": "true",
+    "variants": [
+      {
+        "name": "debugApiElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "debugRuntimeElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "releaseApiElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "releaseRuntimeElements",
+        "sourceSet": [
+          "commonMain"
+        ]
+      },
+      {
+        "name": "iosArm64ApiElements",
+        "sourceSet": [
+          "iosMain",
+          "appleMain",
+          "nativeMain",
+          "commonMain"
+        ]
+      },
+      {
+        "name": "iosSimulatorArm64ApiElements",
+        "sourceSet": [
+          "iosMain",
+          "appleMain",
+          "nativeMain",
+          "commonMain"
+        ]
+      },
+      {
+        "name": "iosX64ApiElements",
+        "sourceSet": [
+          "iosMain",
+          "appleMain",
+          "nativeMain",
+          "commonMain"
+        ]
+      }
+    ],
+    "sourceSets": [
+      {
+        "name": "appleMain",
+        "dependsOn": [
+          "nativeMain"
+        ],
+        "moduleDependency": [
+          "org.jetbrains.kotlin:kotlin-stdlib",
+          "io.ktor:ktor-client-core",
+          "io.ktor:ktor-client-content-negotiation",
+          "io.ktor:ktor-serialization-kotlinx-json",
+          "io.ktor:ktor-client-logging",
+          "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+          "org.jetbrains.kotlinx:kotlinx-datetime",
+          "io.ktor:ktor-client-cio"
+        ],
+        "sourceSetCInteropMetadataDirectory": "appleMain-cinterop",
+        "binaryLayout": "klib",
+        "hostSpecific": "true"
+      },
+      {
+        "name": "commonMain",
+        "dependsOn": [],
+        "moduleDependency": [
+          "org.jetbrains.kotlin:kotlin-stdlib"
+        ],
+        "binaryLayout": "klib"
+      },
+      {
+        "name": "iosMain",
+        "dependsOn": [
+          "appleMain"
+        ],
+        "moduleDependency": [
+          "org.jetbrains.kotlin:kotlin-stdlib",
+          "io.ktor:ktor-client-core",
+          "io.ktor:ktor-client-content-negotiation",
+          "io.ktor:ktor-serialization-kotlinx-json",
+          "io.ktor:ktor-client-logging",
+          "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+          "org.jetbrains.kotlinx:kotlinx-datetime",
+          "io.ktor:ktor-client-cio"
+        ],
+        "sourceSetCInteropMetadataDirectory": "iosMain-cinterop",
+        "binaryLayout": "klib",
+        "hostSpecific": "true"
+      },
+      {
+        "name": "nativeMain",
+        "dependsOn": [
+          "commonMain"
+        ],
+        "moduleDependency": [
+          "org.jetbrains.kotlin:kotlin-stdlib",
+          "io.ktor:ktor-client-core",
+          "io.ktor:ktor-client-content-negotiation",
+          "io.ktor:ktor-serialization-kotlinx-json",
+          "io.ktor:ktor-client-logging",
+          "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+          "org.jetbrains.kotlinx:kotlinx-datetime",
+          "io.ktor:ktor-client-cio"
+        ],
+        "sourceSetCInteropMetadataDirectory": "nativeMain-cinterop",
+        "binaryLayout": "klib",
+        "hostSpecific": "true"
+      }
+    ]
+  }
+}

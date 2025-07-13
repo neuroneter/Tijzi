@@ -1,0 +1,2 @@
+
+<shared_commonMain>:com.parceros.tijzi:#com.parceros.tijzi.data.datasources:com.parceros.tijzi.data.remote:"com.parceros.tijzi.data.remote.dto:"com.parceros.tijzi.data.repository:'com.parceros.tijzi.data.repository.impl:com.parceros.tijzi.di:com.parceros.tijzi.domain.model:!com.parceros.tijzi.domain.usecase:%com.parceros.tijzi.presentation.model:)com.parceros.tijzi.presentation.viewmodel:com.parceros.tijzi.util
