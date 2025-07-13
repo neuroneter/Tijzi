@@ -1,0 +1,422 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:1-17:12
+MERGED from [:shared] /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7eda7941db0eca42588aac3fe34c9022/transformed/navigation-common-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/e0a8d00cf0eef2f119e0c570de16d3fe/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/88552b1c357501c8e1b2b4c812a2b464/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/eb4704d4784ce36b49f7494864c4d9e4/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/70d893767d89e4cbb16453d9929b771c/transformed/navigation-compose-2.7.6/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-permissions:0.32.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f76b12c8648c08e832263813c0cfaab1/transformed/accompanist-permissions-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/305d52bb7db61a16874e833c663fbdf8/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6077571a87517ca965d05718a4e1f26e/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9dd30b9682176adcb6e8f7942db66096/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5752e13e75ee4a3632bab0634e4672fd/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7bbc66299a47996ae07bb590950a1fcd/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/100b38069dee171e802f60d7d4cf08fe/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/eddf2da7263bcccda9bb30f92aedd10b/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/ef02858e820bd047b1bce2e8d49e9f20/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/4efe73bdbb73bbd619dfbcfc5d4ff8ba/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5e5e7b00110e284e65c2c4528438906f/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/367454cd64ac409b576ed0b258e0bfa7/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/befeaefa33ecfdbb3080b68fc57cbef3/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/094861373f1b3b87a3adb5a3d85f5613/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/20ee570c5a947e94384f0a63b8fefcfa/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/72f90bf51c01b0949854cec4e38e606b/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9a4d87e53f7d4ed5dc362ac25fbeb6e8/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7dfdd6ce004b276faae8e4f2c5c0dd88/transformed/play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/4ef3dd9bf07842b0f6f366e10e9d68c4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/81e0d1504381c6066ab11c1d08154cbe/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7f3d62c1bb022db5fb99f934f3a77037/transformed/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/db702eaf8b34ada2bdbd76f86912e496/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/3102f681f03d654b7cbe8459efdcd5c3/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6cb91f900d53d601f938993f29c5c1d8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/20ef1494eb29c3e446e1c169168ddf86/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/88f4dbcf857c04042d4aef6dbbcda452/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b7c17251f5119d66d3684460042b649d/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/910c2777d8406118e834ef719b24e829/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/57aea53dcf03027e60afad129c89e5bd/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b88be3923551fa2fcfa9af272970a4ea/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f6d6ace66805a37f225aa08b936b012c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6bb7560ecdf92d89a8a15a57aeec6bf1/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c929c71f66e8cfac234e85df0292a2b6/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/0dc77a83525fcb826c046cfa7a8b0395/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23be039ef03b3bfc04f53d7965881f13/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/145675ed386284a7bd2808473498ba6f/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/42346d47c4f3ee0a3c167ed88bc47152/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/e2906ec4b8cec5cb563fdbd800797ede/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/e7897c3ad7f93a396659fa03879895d4/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c8b8b2539ba917028db35d13608be7b6/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/ee93397ca5a25b147a3a1f75713383b1/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/62d39eed2211c2566cd43a8df623d173/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7ff3d0e3b2742e434d3bda9f32239f89/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/44456746b60f18d8ded3f41e6012f938/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/658ab34ce9e582791abe1dec6cf024f9/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9aeea78ce1aec57d4694b9f783d32d1d/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c3184a8faaac7980e65dc26970aea9fa/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.10.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/022042bb8bacb122e3c37e62233b6062/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/39539b6e2c6b37b78449b7c223c17eb8/transformed/activity-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23d9201e3b18ed9480b4c26763fd0f8a/transformed/activity-compose-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/511dc829761e7e604162edef98996fd3/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/acc9fa4b5f10ec2c89f8e17dcf47e933/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/24ed134d5995032a250828bbf3d56991/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5046e7545d6ee501a83ab6a70c9f8c49/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b5cb7df22708de1e4af7e2bc0eb677e5/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d532b4b9815f67cf96962ec298f9158a/transformed/napier-debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/82982ce4af234043256193e20bb3dd98/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b8872d83a4140108ad6d56c079ec5ce6/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/68c14ae26b8a25002390f6f899cd0864/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/82ca17695badb246602619fcb8241d12/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/801efb3d7bfc07334aa687314c5b9522/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/07602023e4fe5cfcd45e6568540f4a4b/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d4d59030fe9bbdee5567174e4d7fce8e/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d6ef1e145ddbedc6c65330d2566c9d83/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6e54e5d0a9f5c4ca60d3da22c29c550b/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/eb3d18656d0a0211184074a2083e3cf7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/592c212f48d1d0a2e8cdc2dd5218a6b3/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:4:5-16:19
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:4:5-16:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/72f90bf51c01b0949854cec4e38e606b/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/72f90bf51c01b0949854cec4e38e606b/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7dfdd6ce004b276faae8e4f2c5c0dd88/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7dfdd6ce004b276faae8e4f2c5c0dd88/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/4ef3dd9bf07842b0f6f366e10e9d68c4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/4ef3dd9bf07842b0f6f366e10e9d68c4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/81e0d1504381c6066ab11c1d08154cbe/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/81e0d1504381c6066ab11c1d08154cbe/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23be039ef03b3bfc04f53d7965881f13/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23be039ef03b3bfc04f53d7965881f13/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c3184a8faaac7980e65dc26970aea9fa/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c3184a8faaac7980e65dc26970aea9fa/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/82ca17695badb246602619fcb8241d12/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/82ca17695badb246602619fcb8241d12/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/801efb3d7bfc07334aa687314c5b9522/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/801efb3d7bfc07334aa687314c5b9522/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:6:9-35
+	android:allowBackup
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:5:9-36
+	android:theme
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:7:9-40
+activity#com.parceros.tijzi.android.MainActivity
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:8:9-15:20
+	android:exported
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:10:13-36
+	android:name
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:9:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:11:13-14:29
+action#android.intent.action.MAIN
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:12:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:13:17-77
+	android:name
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml:13:27-74
+uses-sdk
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+MERGED from [:shared] /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:shared] /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7eda7941db0eca42588aac3fe34c9022/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7eda7941db0eca42588aac3fe34c9022/transformed/navigation-common-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/e0a8d00cf0eef2f119e0c570de16d3fe/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/e0a8d00cf0eef2f119e0c570de16d3fe/transformed/navigation-runtime-2.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/88552b1c357501c8e1b2b4c812a2b464/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/88552b1c357501c8e1b2b4c812a2b464/transformed/navigation-common-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/eb4704d4784ce36b49f7494864c4d9e4/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/eb4704d4784ce36b49f7494864c4d9e4/transformed/navigation-runtime-ktx-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/70d893767d89e4cbb16453d9929b771c/transformed/navigation-compose-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/70d893767d89e4cbb16453d9929b771c/transformed/navigation-compose-2.7.6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-permissions:0.32.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f76b12c8648c08e832263813c0cfaab1/transformed/accompanist-permissions-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-permissions:0.32.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f76b12c8648c08e832263813c0cfaab1/transformed/accompanist-permissions-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/305d52bb7db61a16874e833c663fbdf8/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/305d52bb7db61a16874e833c663fbdf8/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6077571a87517ca965d05718a4e1f26e/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6077571a87517ca965d05718a4e1f26e/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9dd30b9682176adcb6e8f7942db66096/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9dd30b9682176adcb6e8f7942db66096/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5752e13e75ee4a3632bab0634e4672fd/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5752e13e75ee4a3632bab0634e4672fd/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7bbc66299a47996ae07bb590950a1fcd/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7bbc66299a47996ae07bb590950a1fcd/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/100b38069dee171e802f60d7d4cf08fe/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/100b38069dee171e802f60d7d4cf08fe/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/eddf2da7263bcccda9bb30f92aedd10b/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/eddf2da7263bcccda9bb30f92aedd10b/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/ef02858e820bd047b1bce2e8d49e9f20/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/ef02858e820bd047b1bce2e8d49e9f20/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/4efe73bdbb73bbd619dfbcfc5d4ff8ba/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/4efe73bdbb73bbd619dfbcfc5d4ff8ba/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5e5e7b00110e284e65c2c4528438906f/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5e5e7b00110e284e65c2c4528438906f/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/367454cd64ac409b576ed0b258e0bfa7/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/367454cd64ac409b576ed0b258e0bfa7/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/befeaefa33ecfdbb3080b68fc57cbef3/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/befeaefa33ecfdbb3080b68fc57cbef3/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/094861373f1b3b87a3adb5a3d85f5613/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/094861373f1b3b87a3adb5a3d85f5613/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/20ee570c5a947e94384f0a63b8fefcfa/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/20ee570c5a947e94384f0a63b8fefcfa/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/72f90bf51c01b0949854cec4e38e606b/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/72f90bf51c01b0949854cec4e38e606b/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9a4d87e53f7d4ed5dc362ac25fbeb6e8/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9a4d87e53f7d4ed5dc362ac25fbeb6e8/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7dfdd6ce004b276faae8e4f2c5c0dd88/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7dfdd6ce004b276faae8e4f2c5c0dd88/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/4ef3dd9bf07842b0f6f366e10e9d68c4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/4ef3dd9bf07842b0f6f366e10e9d68c4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/81e0d1504381c6066ab11c1d08154cbe/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/81e0d1504381c6066ab11c1d08154cbe/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7f3d62c1bb022db5fb99f934f3a77037/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7f3d62c1bb022db5fb99f934f3a77037/transformed/fragment-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/db702eaf8b34ada2bdbd76f86912e496/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/db702eaf8b34ada2bdbd76f86912e496/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/3102f681f03d654b7cbe8459efdcd5c3/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/3102f681f03d654b7cbe8459efdcd5c3/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6cb91f900d53d601f938993f29c5c1d8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6cb91f900d53d601f938993f29c5c1d8/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/20ef1494eb29c3e446e1c169168ddf86/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/20ef1494eb29c3e446e1c169168ddf86/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/88f4dbcf857c04042d4aef6dbbcda452/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/88f4dbcf857c04042d4aef6dbbcda452/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b7c17251f5119d66d3684460042b649d/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b7c17251f5119d66d3684460042b649d/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/910c2777d8406118e834ef719b24e829/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/910c2777d8406118e834ef719b24e829/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/57aea53dcf03027e60afad129c89e5bd/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/57aea53dcf03027e60afad129c89e5bd/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b88be3923551fa2fcfa9af272970a4ea/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b88be3923551fa2fcfa9af272970a4ea/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f6d6ace66805a37f225aa08b936b012c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f6d6ace66805a37f225aa08b936b012c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6bb7560ecdf92d89a8a15a57aeec6bf1/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6bb7560ecdf92d89a8a15a57aeec6bf1/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c929c71f66e8cfac234e85df0292a2b6/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c929c71f66e8cfac234e85df0292a2b6/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/0dc77a83525fcb826c046cfa7a8b0395/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/0dc77a83525fcb826c046cfa7a8b0395/transformed/lifecycle-livedata-core-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23be039ef03b3bfc04f53d7965881f13/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23be039ef03b3bfc04f53d7965881f13/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/145675ed386284a7bd2808473498ba6f/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/145675ed386284a7bd2808473498ba6f/transformed/lifecycle-livedata-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/42346d47c4f3ee0a3c167ed88bc47152/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/42346d47c4f3ee0a3c167ed88bc47152/transformed/lifecycle-livedata-core-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/e2906ec4b8cec5cb563fdbd800797ede/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/e2906ec4b8cec5cb563fdbd800797ede/transformed/lifecycle-viewmodel-2.8.6/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/e7897c3ad7f93a396659fa03879895d4/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/e7897c3ad7f93a396659fa03879895d4/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c8b8b2539ba917028db35d13608be7b6/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c8b8b2539ba917028db35d13608be7b6/transformed/lifecycle-viewmodel-savedstate-2.8.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/ee93397ca5a25b147a3a1f75713383b1/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/ee93397ca5a25b147a3a1f75713383b1/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/62d39eed2211c2566cd43a8df623d173/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/62d39eed2211c2566cd43a8df623d173/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7ff3d0e3b2742e434d3bda9f32239f89/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/7ff3d0e3b2742e434d3bda9f32239f89/transformed/lifecycle-viewmodel-ktx-2.8.6/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/44456746b60f18d8ded3f41e6012f938/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/44456746b60f18d8ded3f41e6012f938/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/658ab34ce9e582791abe1dec6cf024f9/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/658ab34ce9e582791abe1dec6cf024f9/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9aeea78ce1aec57d4694b9f783d32d1d/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9aeea78ce1aec57d4694b9f783d32d1d/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c3184a8faaac7980e65dc26970aea9fa/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c3184a8faaac7980e65dc26970aea9fa/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/022042bb8bacb122e3c37e62233b6062/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/022042bb8bacb122e3c37e62233b6062/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/39539b6e2c6b37b78449b7c223c17eb8/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/39539b6e2c6b37b78449b7c223c17eb8/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23d9201e3b18ed9480b4c26763fd0f8a/transformed/activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23d9201e3b18ed9480b4c26763fd0f8a/transformed/activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/511dc829761e7e604162edef98996fd3/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/511dc829761e7e604162edef98996fd3/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/acc9fa4b5f10ec2c89f8e17dcf47e933/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/acc9fa4b5f10ec2c89f8e17dcf47e933/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/24ed134d5995032a250828bbf3d56991/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/24ed134d5995032a250828bbf3d56991/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5046e7545d6ee501a83ab6a70c9f8c49/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5046e7545d6ee501a83ab6a70c9f8c49/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b5cb7df22708de1e4af7e2bc0eb677e5/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b5cb7df22708de1e4af7e2bc0eb677e5/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d532b4b9815f67cf96962ec298f9158a/transformed/napier-debug/AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.aakira:napier-android-debug:1.4.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d532b4b9815f67cf96962ec298f9158a/transformed/napier-debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/82982ce4af234043256193e20bb3dd98/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/82982ce4af234043256193e20bb3dd98/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b8872d83a4140108ad6d56c079ec5ce6/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/b8872d83a4140108ad6d56c079ec5ce6/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/68c14ae26b8a25002390f6f899cd0864/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/68c14ae26b8a25002390f6f899cd0864/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/82ca17695badb246602619fcb8241d12/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/82ca17695badb246602619fcb8241d12/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/801efb3d7bfc07334aa687314c5b9522/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/801efb3d7bfc07334aa687314c5b9522/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/07602023e4fe5cfcd45e6568540f4a4b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/07602023e4fe5cfcd45e6568540f4a4b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d4d59030fe9bbdee5567174e4d7fce8e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d4d59030fe9bbdee5567174e4d7fce8e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d6ef1e145ddbedc6c65330d2566c9d83/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/d6ef1e145ddbedc6c65330d2566c9d83/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6e54e5d0a9f5c4ca60d3da22c29c550b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/6e54e5d0a9f5c4ca60d3da22c29c550b/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/eb3d18656d0a0211184074a2083e3cf7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/eb3d18656d0a0211184074a2083e3cf7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/592c212f48d1d0a2e8cdc2dd5218a6b3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/592c212f48d1d0a2e8cdc2dd5218a6b3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/androidTijzi/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/72f90bf51c01b0949854cec4e38e606b/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/72f90bf51c01b0949854cec4e38e606b/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/72f90bf51c01b0949854cec4e38e606b/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/81e0d1504381c6066ab11c1d08154cbe/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/81e0d1504381c6066ab11c1d08154cbe/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/81e0d1504381c6066ab11c1d08154cbe/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23be039ef03b3bfc04f53d7965881f13/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23be039ef03b3bfc04f53d7965881f13/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/801efb3d7bfc07334aa687314c5b9522/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/801efb3d7bfc07334aa687314c5b9522/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/fb59a211f8223add2611e8dd1a07f7f9/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.parceros.tijzi.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.parceros.tijzi.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23be039ef03b3bfc04f53d7965881f13/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23be039ef03b3bfc04f53d7965881f13/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.6] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/23be039ef03b3bfc04f53d7965881f13/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c3184a8faaac7980e65dc26970aea9fa/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c3184a8faaac7980e65dc26970aea9fa/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/c3184a8faaac7980e65dc26970aea9fa/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:24:13-63
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/5705f5576a008d8c3436beaf90523198/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92

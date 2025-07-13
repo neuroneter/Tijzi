@@ -1,40 +1,44 @@
+// androidTijzi/src/main/java/com/parceros/tijzi/android/MainActivity.kt
 package com.parceros.tijzi.android
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.parceros.tijzi.Greeting
+import com.parceros.tijzi.android.di.UiModule
+import com.parceros.tijzi.android.di.AndroidAuthViewModel
+import com.parceros.tijzi.android.ui.navigation.AuthNavigation
+import com.parceros.tijzi.android.ui.theme.TijziTheme
+import com.parceros.tijzi.data.datasources.SecureKeyValueStorage
 
 class MainActivity : ComponentActivity() {
+
+    // Crear SecureKeyValueStorage para Android
+    private val secureKeyValueStorage by lazy {
+        SecureKeyValueStorage(this)
+    }
+
+    // Crear AndroidAuthViewModel usando nuestro factory
+    private val authViewModel: AndroidAuthViewModel by viewModels {
+        UiModule.createAndroidAuthViewModelFactory(secureKeyValueStorage)
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContent {
-            MyApplicationTheme {
+            TijziTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    GreetingView(Greeting().greet())
+                    AuthNavigation(authViewModel = authViewModel)
                 }
             }
         }
-    }
-}
-
-@Composable
-fun GreetingView(text: String) {
-    Text(text = text)
-}
-
-@Preview
-@Composable
-fun DefaultPreview() {
-    MyApplicationTheme {
-        GreetingView("Hello, Android!")
     }
 }

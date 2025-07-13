@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11474056196033267022.xml:2:13-83
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11474056196033267022.xml:2:13-83
+	package
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11474056196033267022.xml
+	xmlns:android
+		ADDED from /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11474056196033267022.xml:2:23-81
+uses-sdk
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11474056196033267022.xml reason: use-sdk injection requested
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11474056196033267022.xml
+INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11474056196033267022.xml
+	android:targetSdkVersion
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11474056196033267022.xml
+	android:minSdkVersion
+		INJECTED from /Users/neuroneter/Documents/WorkSapce/Tijzi/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11474056196033267022.xml
