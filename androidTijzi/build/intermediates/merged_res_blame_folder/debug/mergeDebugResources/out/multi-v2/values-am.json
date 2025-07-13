@@ -4,7 +4,7 @@
             "outputFile": "com.parceros.tijzi.android.androidTijzi-mergeDebugResources-55:/values-am/values-am.xml",
             "map": [
                 {
-                    "source": "/Users/neuroneter/.gradle/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/res/values-am/values.xml",
+                    "source": "/Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f799acb54d07472aa3707a47947f104b/transformed/play-services-base-18.1.0/res/values-am/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,41 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/neuroneter/.gradle/caches/8.11.1/transforms/ef02858e820bd047b1bce2e8d49e9f20/transformed/foundation-release/res/values-am/values-am.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,142",
-                        "endColumns": "86,85",
-                        "endOffsets": "137,223"
-                    },
-                    "to": {
-                        "startLines": "101,102",
-                        "startColumns": "4,4",
-                        "startOffsets": "10056,10143",
-                        "endColumns": "86,85",
-                        "endOffsets": "10138,10224"
-                    }
-                },
-                {
-                    "source": "/Users/neuroneter/.gradle/caches/8.11.1/transforms/9aeea78ce1aec57d4694b9f783d32d1d/transformed/ui-release/res/values-am/values-am.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,188,265,357,453,535,613,696,778,856,922,988,1066,1147,1217,1297,1362",
-                        "endColumns": "82,76,91,95,81,77,82,81,77,65,65,77,80,69,79,64,115",
-                        "endOffsets": "183,260,352,448,530,608,691,773,851,917,983,1061,1142,1212,1292,1357,1473"
-                    },
-                    "to": {
-                        "startLines": "9,10,29,30,31,32,33,90,91,92,93,94,95,96,98,99,100",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "792,875,2958,3050,3146,3228,3306,9173,9255,9333,9399,9465,9543,9624,9795,9875,9940",
-                        "endColumns": "82,76,91,95,81,77,82,81,77,65,65,77,80,69,79,64,115",
-                        "endOffsets": "870,947,3045,3141,3223,3301,3384,9250,9328,9394,9460,9538,9619,9689,9870,9935,10051"
-                    }
-                },
-                {
-                    "source": "/Users/neuroneter/.gradle/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/res/values-am/values-am.xml",
+                    "source": "/Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/f2a6ccbe3d4398baff89e845e6df3088/transformed/core-1.13.1/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -72,24 +38,24 @@
                     }
                 },
                 {
-                    "source": "/Users/neuroneter/.gradle/caches/8.11.1/transforms/81e0d1504381c6066ab11c1d08154cbe/transformed/play-services-basement-18.1.0/res/values-am/values.xml",
+                    "source": "/Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/9aeea78ce1aec57d4694b9f783d32d1d/transformed/ui-release/res/values-am/values-am.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "127",
-                        "endOffsets": "322"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,188,265,357,453,535,613,696,778,856,922,988,1066,1147,1217,1297,1362",
+                        "endColumns": "82,76,91,95,81,77,82,81,77,65,65,77,80,69,79,64,115",
+                        "endOffsets": "183,260,352,448,530,608,691,773,851,917,983,1061,1142,1212,1292,1357,1473"
                     },
                     "to": {
-                        "startLines": "19",
-                        "startColumns": "4",
-                        "startOffsets": "1877",
-                        "endColumns": "131",
-                        "endOffsets": "2004"
+                        "startLines": "9,10,29,30,31,32,33,90,91,92,93,94,95,96,98,99,100",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "792,875,2958,3050,3146,3228,3306,9173,9255,9333,9399,9465,9543,9624,9795,9875,9940",
+                        "endColumns": "82,76,91,95,81,77,82,81,77,65,65,77,80,69,79,64,115",
+                        "endOffsets": "870,947,3045,3141,3223,3301,3384,9250,9328,9394,9460,9538,9619,9689,9870,9935,10051"
                     }
                 },
                 {
-                    "source": "/Users/neuroneter/.gradle/caches/8.11.1/transforms/305d52bb7db61a16874e833c663fbdf8/transformed/material3-release/res/values-am/values-am.xml",
+                    "source": "/Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/305d52bb7db61a16874e833c663fbdf8/transformed/material3-release/res/values-am/values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -103,6 +69,40 @@
                         "startOffsets": "3389,3500,3610,3718,3825,3919,4009,4116,4244,4354,4483,4565,4663,4750,4843,4953,5072,5175,5298,5423,5547,5695,5811,5924,6038,6153,6241,6336,6446,6565,6660,6762,6864,6984,7110,7214,7310,7384,7477,7569,7653,7738,7840,7921,8004,8104,8201,8296,8391,8476,8578,8677,8776,8894,8975,9076",
                         "endColumns": "110,109,107,106,93,89,106,127,109,128,81,97,86,92,109,118,102,122,124,123,147,115,112,113,114,87,94,109,118,94,101,101,119,125,103,95,73,92,91,83,84,101,80,82,99,96,94,94,84,101,98,98,117,80,100,96",
                         "endOffsets": "3495,3605,3713,3820,3914,4004,4111,4239,4349,4478,4560,4658,4745,4838,4948,5067,5170,5293,5418,5542,5690,5806,5919,6033,6148,6236,6331,6441,6560,6655,6757,6859,6979,7105,7209,7305,7379,7472,7564,7648,7733,7835,7916,7999,8099,8196,8291,8386,8471,8573,8672,8771,8889,8970,9071,9168"
+                    }
+                },
+                {
+                    "source": "/Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/ef02858e820bd047b1bce2e8d49e9f20/transformed/foundation-release/res/values-am/values-am.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,142",
+                        "endColumns": "86,85",
+                        "endOffsets": "137,223"
+                    },
+                    "to": {
+                        "startLines": "101,102",
+                        "startColumns": "4,4",
+                        "startOffsets": "10056,10143",
+                        "endColumns": "86,85",
+                        "endOffsets": "10138,10224"
+                    }
+                },
+                {
+                    "source": "/Users/neuroneter/Documents/WorkSapce/AppProsperidad/src/app/caches/8.11.1/transforms/81e0d1504381c6066ab11c1d08154cbe/transformed/play-services-basement-18.1.0/res/values-am/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "127",
+                        "endOffsets": "322"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1877",
+                        "endColumns": "131",
+                        "endOffsets": "2004"
                     }
                 }
             ]

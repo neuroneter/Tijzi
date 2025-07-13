@@ -133,6 +133,10 @@ int drawable notification_template_icon_bg 0x7f040024
 int drawable notification_template_icon_low_bg 0x7f040025
 int drawable notification_tile_bg 0x7f040026
 int drawable notify_panel_notification_icon_bg 0x7f040027
+int font exo_bolditalic 0x7f0b0002
+int font exo_italic 0x7f0b0000
+int font exo_mediumitalic 0x7f0b0003
+int font exo_regular 0x7f0b0001
 int id accessibility_action_clickable_span 0x7f050000
 int id accessibility_custom_action_0 0x7f050001
 int id accessibility_custom_action_1 0x7f050002

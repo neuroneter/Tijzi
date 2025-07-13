@@ -14,6 +14,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.parceros.tijzi.android.ui.theme.TijziTheme
@@ -28,8 +29,10 @@ fun CountryPickerComponent(
     onToggle: () -> Unit,
     modifier: Modifier = Modifier
 ) {
+    val cornerRadius = 12.dp
+
     Column(modifier = modifier) {
-        // Selected country display
+        // Selected country display with dynamic corners
         Card(
             modifier = Modifier
                 .fillMaxWidth()
@@ -37,21 +40,33 @@ fun CountryPickerComponent(
             colors = CardDefaults.cardColors(
                 containerColor = TijziTheme.colors.Surface
             ),
-            shape = RoundedCornerShape(TijziTheme.dimensions.InputRadius)
+            // 🔥 ESQUINAS DINÁMICAS: Si está abierto, solo esquinas superiores redondeadas
+            shape = if (isOpen) {
+                RoundedCornerShape(
+                    topStart = cornerRadius,
+                    topEnd = cornerRadius,
+                    bottomStart = 0.dp,
+                    bottomEnd = 0.dp
+                )
+            } else {
+                // Si está cerrado, todas las esquinas redondeadas
+                RoundedCornerShape(cornerRadius)
+            }
         ) {
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(TijziTheme.dimensions.InputPaddingHorizontal),
+                    .padding(16.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
                     text = selectedCountry?.nameEs ?: "Selecciona tu país",
-                    style = TijziTheme.typography.InputText,
-                    color = if (selectedCountry != null)
-                        TijziTheme.colors.OnSurface
-                    else
-                        TijziTheme.colors.OnSurfaceVariant,
+                    style = TijziTheme.typography.InputText.copy(
+                        color = if (selectedCountry != null)
+                            Color.White
+                        else
+                            TijziTheme.colors.OnSurfaceVariant
+                    ),
                     modifier = Modifier.weight(1f)
                 )
 
@@ -63,17 +78,30 @@ fun CountryPickerComponent(
             }
         }
 
-        // Dropdown list
+        // Dropdown list with dynamic corners
         if (isOpen && countries.isNotEmpty()) {
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .heightIn(max = TijziTheme.dimensions.CountryPickerMaxHeight),
+                    .heightIn(max = 200.dp),
                 colors = CardDefaults.cardColors(
                     containerColor = TijziTheme.colors.Surface
                 ),
-                shape = RoundedCornerShape(TijziTheme.dimensions.InputRadius)
+                // 🔥 ESQUINAS DINÁMICAS: Solo esquinas inferiores redondeadas
+                shape = RoundedCornerShape(
+                    topStart = 0.dp,
+                    topEnd = 0.dp,
+                    bottomStart = cornerRadius,
+                    bottomEnd = cornerRadius
+                )
             ) {
+                // 🔥 LÍNEA DIVISORIA SUTIL entre el selector y la lista
+                Divider(
+                    color = TijziTheme.colors.Border,
+                    thickness = 1.dp,
+                    modifier = Modifier.fillMaxWidth()
+                )
+
                 LazyColumn {
                     items(countries) { country ->
                         CountryItem(
@@ -101,18 +129,20 @@ private fun CountryItem(
             .fillMaxWidth()
             .clickable { onSelected() }
             .background(
-                if (isSelected) TijziTheme.colors.Primary.copy(alpha = 0.1f)
-                else TijziTheme.colors.Surface
+                if (isSelected)
+                    TijziTheme.colors.Primary.copy(alpha = 0.1f)
+                else
+                    TijziTheme.colors.Surface
             )
-            .padding(TijziTheme.dimensions.InputPaddingHorizontal),
+            .padding(16.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
         // Country flag placeholder
         Box(
             modifier = Modifier
-                .size(TijziTheme.dimensions.CountryFlagSize)
+                .size(24.dp)
                 .background(
-                    TijziTheme.colors.Primary.copy(alpha = 0.2f),
+                    TijziTheme.colors.Primary,
                     RoundedCornerShape(4.dp)
                 ),
             contentAlignment = Alignment.Center
@@ -120,28 +150,29 @@ private fun CountryItem(
             Text(
                 text = country.isoCode.take(2),
                 style = TijziTheme.typography.Caption.copy(
-                    fontWeight = FontWeight.Bold
-                ),
-                color = TijziTheme.colors.Primary
+                    fontWeight = FontWeight.Bold,
+                    color = TijziTheme.colors.OnPrimary
+                )
             )
         }
 
-        Spacer(modifier = Modifier.width(TijziTheme.dimensions.SpaceM))
+        Spacer(modifier = Modifier.width(16.dp))
 
         Column(modifier = Modifier.weight(1f)) {
             Text(
                 text = country.nameEs,
-                style = TijziTheme.typography.InputText,
-                color = TijziTheme.colors.OnSurface
+                style = TijziTheme.typography.InputText.copy(
+                    color = Color.White
+                )
             )
         }
 
         Text(
             text = country.phoneCode,
             style = TijziTheme.typography.InputText.copy(
-                fontWeight = FontWeight.SemiBold
-            ),
-            color = TijziTheme.colors.Primary
+                fontWeight = FontWeight.SemiBold,
+                color = TijziTheme.colors.OnPrimary
+            )
         )
     }
 }

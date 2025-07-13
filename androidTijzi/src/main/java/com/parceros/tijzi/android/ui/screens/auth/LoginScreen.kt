@@ -15,6 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.graphics.Color
 import com.parceros.tijzi.android.ui.components.CountryPickerComponent
 import com.parceros.tijzi.android.ui.components.PhoneInputComponent
 import com.parceros.tijzi.android.ui.components.ChannelButtonComponent
@@ -33,7 +34,7 @@ fun LoginScreen(
     Box(
         modifier = modifier
             .fillMaxSize()
-            .background(TijziTheme.colors.Background)
+            .background(TijziTheme.colors.Background)  // 🔥 NUEVO FONDO #2B2831
     ) {
         // Loading overlay
         if (uiState.isLoading) {
@@ -45,16 +46,16 @@ fun LoginScreen(
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(TijziTheme.dimensions.ScreenPaddingHorizontal)
+                .padding(24.dp)  // TijziTheme.dimensions.ScreenPaddingHorizontal
                 .verticalScroll(rememberScrollState()),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Spacer(modifier = Modifier.height(TijziTheme.dimensions.ScreenPaddingTop))
+            Spacer(modifier = Modifier.height(48.dp))  // TijziTheme.dimensions.ScreenPaddingTop
 
             // Header - Logo y mensaje motivacional
             LoginHeader()
 
-            Spacer(modifier = Modifier.height(48.dp)) // 🔥 FIJO: Usar valor directo
+            Spacer(modifier = Modifier.height(48.dp))
 
             // Form - Country picker + Phone input + Channels
             LoginForm(
@@ -62,12 +63,12 @@ fun LoginScreen(
                 onEvent = onEvent
             )
 
-            Spacer(modifier = Modifier.height(48.dp)) // 🔥 FIJO: Usar valor directo
+            Spacer(modifier = Modifier.height(48.dp))
 
             // Footer - Texto legal
             LoginFooter()
 
-            Spacer(modifier = Modifier.height(TijziTheme.dimensions.ScreenPaddingBottom))
+            Spacer(modifier = Modifier.height(24.dp))  // TijziTheme.dimensions.ScreenPaddingBottom
         }
     }
 }
@@ -77,24 +78,25 @@ private fun LoginHeader() {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Logo Tijzi
+        // Logo Tijzi - 🔥 USANDO NUEVO ROJO TIJZI
         Text(
             text = "Tijzi",
             style = TijziTheme.typography.LogoTitle.copy(
-                color = TijziTheme.colors.Primary,
-                fontSize = 48.sp,
+                color = TijziTheme.colors.OnPrimary,  // 🔥 ROJO TIJZI #BE1E2D
+                fontSize = 55.sp,
                 fontWeight = FontWeight.Bold
             )
         )
 
-        Spacer(modifier = Modifier.height(16.dp)) // 🔥 FIJO: Usar valor directo
+        Spacer(modifier = Modifier.height(16.dp))
 
-        // Mensaje motivacional
+        // Mensaje motivacional - 🔥 TEXTO BLANCO
         Text(
             text = "¡Entra al mundo de tu libertad,\nexplora, disfruta y desea!",
-            style = TijziTheme.typography.WelcomeSubtitle,
-            textAlign = TextAlign.Center,
-            color = TijziTheme.colors.OnSurfaceVariant
+            style = TijziTheme.typography.WelcomeSubtitle.copy(
+                color = Color.White  // 🔥 BLANCO para mejor contraste
+            ),
+            textAlign = TextAlign.Center
         )
     }
 }
@@ -121,7 +123,7 @@ private fun LoginForm(
             modifier = Modifier.fillMaxWidth()
         )
 
-        Spacer(modifier = Modifier.height(16.dp)) // 🔥 FIJO: Usar valor directo
+        Spacer(modifier = Modifier.height(16.dp))
 
         // Phone Input
         PhoneInputComponent(
@@ -135,7 +137,7 @@ private fun LoginForm(
             modifier = Modifier.fillMaxWidth()
         )
 
-        Spacer(modifier = Modifier.height(32.dp)) // 🔥 FIJO: Usar valor directo
+        Spacer(modifier = Modifier.height(32.dp))
 
         // Channel Buttons
         ChannelButtons(
@@ -150,22 +152,21 @@ private fun LoginForm(
             modifier = Modifier.fillMaxWidth()
         )
 
-        // Error message
-        val errorMessage = uiState.error // 🔥 FIJO: Extraer a variable
+        // Error message - 🔥 USANDO NUEVO COLOR DE ERROR
+        val errorMessage = uiState.error
         if (errorMessage != null) {
-            Spacer(modifier = Modifier.height(TijziTheme.dimensions.SpaceM))
+            Spacer(modifier = Modifier.height(16.dp))  // TijziTheme.dimensions.SpaceM
             Card(
                 modifier = Modifier.fillMaxWidth(),
                 colors = CardDefaults.cardColors(
-                    containerColor = TijziTheme.colors.Error.copy(alpha = 0.1f)
+                    containerColor = TijziTheme.colors.Error.copy(alpha = 0.1f)  // 🔥 FONDO DE ERROR SUTIL
                 ),
-                shape = RoundedCornerShape(TijziTheme.dimensions.CardRadius)
+                shape = RoundedCornerShape(16.dp)  // TijziTheme.dimensions.CardRadius
             ) {
                 Text(
-                    text = errorMessage, // 🔥 FIJO: Usar variable
-                    style = TijziTheme.typography.ErrorText,
-                    modifier = Modifier.padding(TijziTheme.dimensions.SpaceM),
-                    color = TijziTheme.colors.Error
+                    text = errorMessage,
+                    style = TijziTheme.typography.ErrorText,  // 🔥 YA TIENE COLOR ROJO PARA ERRORES
+                    modifier = Modifier.padding(16.dp)
                 )
             }
         }
@@ -193,7 +194,7 @@ private fun ChannelButtons(
             modifier = Modifier.fillMaxWidth()
         )
 
-        Spacer(modifier = Modifier.height(12.dp)) // 🔥 FIJO: Usar valor directo
+        Spacer(modifier = Modifier.height(12.dp))
 
         // SMS Button
         ChannelButtonComponent(
@@ -205,7 +206,7 @@ private fun ChannelButtons(
             modifier = Modifier.fillMaxWidth()
         )
 
-        Spacer(modifier = Modifier.height(12.dp)) // 🔥 FIJO: Usar valor directo
+        Spacer(modifier = Modifier.height(12.dp))
 
         // Telegram Button
         ChannelButtonComponent(
@@ -223,9 +224,10 @@ private fun ChannelButtons(
 private fun LoginFooter() {
     Text(
         text = "Al ingresar confirmas que eres mayor de edad y te haces responsable por todas tus interacciones, visita AQUÍ",
-        style = TijziTheme.typography.Caption,
+        style = TijziTheme.typography.Caption.copy(
+            color = TijziTheme.colors.OnSurfaceVariant  // 🔥 GRIS CLARO para texto legal
+        ),
         textAlign = TextAlign.Center,
-        color = TijziTheme.colors.OnSurfaceVariant,
-        modifier = Modifier.padding(horizontal = TijziTheme.dimensions.SpaceM)
+        modifier = Modifier.padding(horizontal = 16.dp)
     )
 }

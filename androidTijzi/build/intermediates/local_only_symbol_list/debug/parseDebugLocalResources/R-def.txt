@@ -1,3 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+font exo_bolditalic
+font exo_italic
+font exo_mediumitalic
+font exo_regular
 style AppTheme

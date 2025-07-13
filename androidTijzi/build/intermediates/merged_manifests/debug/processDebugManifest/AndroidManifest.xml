@@ -8,6 +8,9 @@
         android:minSdkVersion="28"
         android:targetSdkVersion="35" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <permission
         android:name="com.parceros.tijzi.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
